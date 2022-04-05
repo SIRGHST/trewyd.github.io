@@ -1,7 +1,191 @@
+<!DOCTYPE HTML>
 <html>
+  <head>
+    <title>HTML5 element tags</title>
+    <link href="resources/styles.css" rel="stylesheet">
+  </head>
   <body>
-    <h1>Trevaughn McGregor</h1>
-    <p>Welcome to my website!</p>
-    <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+      <h1>HTML5 REFERENCE v.0</h1>
+      <h2>&lt;Tags&gt;</h2>
+    </header>
+    <p>The HTML5 element tags(&lt;&gt; &lt;/&gt;) are listed below.
+      Those that do not require a closing tag(&lt;/&gt;) are marked with a <strong id="asterisk">*</strong> symbol. 
+      </p>
+    <main>
+      <!--DOCUMENT TAGS -->
+      <table id="document">
+        <thead>
+          <tr>
+            <th>Document</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;!DOCTYPE HTML&gt;*</td>
+            <td>The &lt;!DOCTYPE html&gt; declaration 
+              represents the document type, and helps  
+              browsers to display web pages correctly.</td>
+          </tr>
+          <tr>
+            <td>&lt;!--comments--&gt;*</td>
+            <td>HTML comments are not displayed in the 
+              browser, but they can help document your HTML 
+              source code.</td>
+          </tr>
+          <tr>
+            <td>&lt;html&gt;</td>
+            <td>The HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt;</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <!--SECTION TAGS-->
+      <table id="section">
+        <thead>
+         <tr>
+            <th>Section</th>
+            <th>Description</th>
+         </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> &lt;body&gt;</td>
+            <td>The &lt;body&gt; element contains all the contents of an HTML document, such as headings, 
+              paragraphs, images, hyperlinks, tables, lists, etc.</td>
+          </tr>
+          <tr>
+            <td> &lt;nav&gt;</td>
+            <td>The &lt;nav&gt; tag defines a set of navigation links.</td>
+          </tr>
+          <tr>
+            <td> &lt;header&gt;</td>
+            <td>The &lt;header&gt; element represents a container for introductory content or a set of navigational links.</td>
+          </tr>
+          <tr>
+            <td> &lt;article&gt;</td>
+            <td>The &lt;article&gt; tag specifies independent, self-contained content.</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <!--GROUPING TAGS-->
+      <table id="grouping">
+        <thead>
+         <tr>
+            <th>Grouping</th>
+            <th>Description </th>
+         </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td> &lt;p&gt;</td>
+              <td>The &lt;p&gt; element defines a paragraph.</td>
+            </tr>
+            <tr>
+              <td> &lt;ul&gt;</td>
+              <td>The &lt;ul&gt; tag defines an unordered (bulleted) list.</td>
+            </tr>
+            <tr>
+              <td> &lt;ol&gt;</td>
+              <td>The &lt;ol&gt; tag defines an ordered list. An ordered list can be numerical or alphabetical.</td>
+            </tr>
+            <tr>
+              <td> &lt;li&gt;</td>
+              <td>The &lt;li&gt; tag defines a list item.The &lt;li&gt; tag is used inside ordered lists(&lt;ol&gt;), unordered lists (&lt;ul&gt;), 
+                and in menu lists (&lt;menu&gt;).</td>
+            </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <!--EMBEDDING TAGS-->
+      <table id="embedding">
+        <thead>
+         <tr>
+            <th>Embedding</th>
+            <th>Description</th>
+         </tr>
+        </thead>
+        <tbody>
+            <tr>
+             <td> &lt;video&gt;</td>
+             <td>The &lt;video&gt; tag is used to embed video content in a document.</td>
+            </tr>
+            <tr>
+               <td> &lt;img&gt;*</td>
+               <td>The &lt;img&gt; tag is used to embed an image in an HTML page.</td>
+            </tr>
+            <tr>
+               <td> &lt;audio&gt;</td>
+               <td>The &lt;audio&gt; tag is used to embed sound content in a document</td>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <!--FORM TAGS-->
+      <table id="form">
+        <thead>
+         <tr>
+            <th>Form</th>
+            <th>Description</th>
+         </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td> &lt;button&gt;</td>
+              <td>The &lt;button&gt; tag defines a clickable button.</td>
+            </tr>
+            <tr>
+                <td> &lt;input&gt;*</td>
+                <td>The &lt;input&gt; specifies an input field 
+                    where the user can enter data.</td>
+              </tr>
+              <tr>
+                <td> &lt;label&gt;*</td>
+                <td>The &lt;label&gt; element represents a caption 
+                    for an item in a user interface.</td>
+              </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <!--META DATA TAGS-->
+      <table id="meta">
+        <thead>
+         <tr>
+            <th>Meta Data</th>
+            <th>Description</th>
+         </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td> &lt;base&gt;*</td>
+              <td>The &lt;base&gt; tag specifies a default URL and target
+                   for all links on a page.</td>
+            </tr>
+            <tr>
+              <td> &lt;head&gt;</td>
+              <td>The &lt;head&gt; element is a container for metadata (data about data)</td>
+            </tr>
+            <tr>
+              <td> &lt;title&gt;</td>
+              <td>The &lt;title&gt; tag defines the title of the document</td>
+            </tr>
+            <tr>
+              <td> &lt;link&gt;*</td>
+              <td>The &lt;link&gt; tag defines the relationship between the 
+                  current document and an external resource.</td>
+              </tr>
+          </tbody>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <h5>By Trevaughn M.</h5>
+    </footer>
   </body>
 </html>
